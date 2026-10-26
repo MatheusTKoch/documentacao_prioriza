@@ -22,7 +22,7 @@ const slugAtivo = computed(() => (route.params.slug as string) ?? '')
   <aside class="sidebar">
     <div class="topo">
       <RouterLink to="/" class="marca">
-        <span class="logo">P</span>
+        <img class="logo" src="/mark.png" alt="Prioriza" width="36" height="36" />
         <span>
           <strong>Prioriza ERP</strong>
           <small>Parâmetros do sistema</small>
@@ -96,22 +96,8 @@ const slugAtivo = computed(() => (route.params.slug as string) ?? '')
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: var(--verde-700);
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  font-size: 18px;
-  position: relative;
-}
-.logo::after {
-  content: '';
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--rosa);
+  object-fit: cover;
+  flex-shrink: 0;
 }
 .fechar {
   display: none;

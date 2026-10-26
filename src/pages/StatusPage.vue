@@ -3,6 +3,8 @@ import { meta, parametros } from '../data'
 
 const t = meta.totais
 const naoRevisados = parametros.filter((p) => !p.revisado)
+const limitePendentes = 40
+const pendentesVisiveis = naoRevisados.slice(0, limitePendentes)
 const pct = (n: number) => Math.round((n / parametros.length) * 100)
 const linhas = [
   ['Com componente na tela de Parâmetros', t.comTela],
@@ -30,27 +32,28 @@ const linhas = [
     <div class="card">
       <p class="titulo-secao">IDs usados no código mas fora do catálogo</p>
       <p v-if="!meta.idsForaDoCatalogo.length" class="fraco">Nenhum.</p>
-      <p v-else class="mono">{{ meta.idsForaDoCatalogo.join(', ') }}</p>
+      <p v-else class="lista-ids mono">{{ meta.idsForaDoCatalogo.join(', ') }}</p>
     </div>
     <div class="card">
       <p class="titulo-secao">Sem uso no código e sem tela (não legado)</p>
       <p v-if="!meta.idsSemUsoNemTela.length" class="fraco">Nenhum.</p>
-      <p v-else>
+      <p v-else class="lista-ids">
         <RouterLink v-for="id in meta.idsSemUsoNemTela" :key="id" :to="`/parametro/${id}`" class="id-chip chip">#{{ id }}</RouterLink>
       </p>
     </div>
     <div class="card">
       <p class="titulo-secao">Ajudas do sistema sem parâmetro vinculado</p>
       <p v-if="!meta.ajudasSemParametro.length" class="fraco">Nenhuma.</p>
-      <ul v-else>
+      <ul v-else class="lista-ids">
         <li v-for="a in meta.ajudasSemParametro" :key="a.ajudaId"><span class="mono">{{ a.ajudaId }}</span> · {{ a.titulo || '(sem título)' }}</li>
       </ul>
     </div>
     <div class="card">
       <p class="titulo-secao">Explicações pendentes de revisão</p>
       <p class="fraco">{{ naoRevisados.length }} de {{ parametros.length }}. Os primeiros:</p>
-      <p>
-        <RouterLink v-for="p in naoRevisados.slice(0, 40)" :key="p.id" :to="`/parametro/${p.id}`" class="id-chip chip">#{{ p.id }}</RouterLink>
+      <p class="lista-ids">
+        <RouterLink v-for="p in pendentesVisiveis" :key="p.id" :to="`/parametro/${p.id}`" class="id-chip chip">#{{ p.id }}</RouterLink>
+        <span v-if="naoRevisados.length > limitePendentes" class="mais fraco">…</span>
       </p>
     </div>
   </div>
@@ -83,13 +86,33 @@ h1 {
   height: 100%;
   background: var(--verde-400);
 }
-.pendencias ul {
+.pendencias .card {
+  min-width: 0;
+  overflow: hidden;
+}
+.pendencias .titulo-secao {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lista-ids {
   margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+.pendencias ul.lista-ids {
   padding-left: 18px;
   font-size: 13px;
 }
 .chip {
   margin-right: 10px;
+}
+.mais {
+  margin-left: 2px;
 }
 @media (max-width: 700px) {
   .linha {
