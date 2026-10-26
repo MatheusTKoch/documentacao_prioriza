@@ -1,0 +1,20 @@
+#!/bin/sh
+# Regenera os dados da documentacao antes de cada commit (somente leitura nas fontes;
+# escreve apenas dentro deste repositorio). Para pular uma vez: PULAR_EXTRACAO=1 git commit ...
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+if [ -n "$PULAR_EXTRACAO" ]; then
+  echo "[pre-commit] PULAR_EXTRACAO definido; dados nao regenerados."
+  exit 0
+fi
+
+if [ ! -f scripts/config.local.json ]; then
+  echo "[pre-commit] scripts/config.local.json nao encontrado."
+  echo "             Copie scripts/config.example.json e ajuste os caminhos, ou use PULAR_EXTRACAO=1."
+  exit 1
+fi
+
+echo "[pre-commit] regenerando src/data a partir das fontes locais..."
+node scripts/extrair.ts
+git add src/data content/parametros scripts/ajuda_map.json

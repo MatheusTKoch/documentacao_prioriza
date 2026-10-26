@@ -1,0 +1,11 @@
+{
+  "$comment": "Copie para scripts/config.local.json (gitignored) e ajuste os caminhos. Todas as fontes sao SOMENTE LEITURA.",
+  "versoes": [
+    { "nome": "16.35", "raiz": "C:/PriorizaTec/gen-2022/tags/20.25.16.35/Fontes" },
+    { "nome": "24.00", "raiz": "C:/PriorizaTec/gen-2022/tags/20.26.24.00/Fontes" }
+  ],
+  "versaoPrincipal": "24.00",
+  "catalogo": "C:/PriorizaTec/gen-2022/dados/scripts/PARAMETROS.parametro",
+  "ajudaCsv": "C:/Users/Prioriza/Downloads/ajuda_202610261120.csv",
+  "formParametros": "Outros/uFrmParametros"
+}

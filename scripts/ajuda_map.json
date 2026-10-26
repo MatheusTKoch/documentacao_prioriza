@@ -1,0 +1,583 @@
+{
+  "1": {
+    "parametroId": null,
+    "titulo": "CADASTRO DE PRODUTOS - CUSTO FIXO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null,
+    "observacao": "Ajuda de campo da tela de produtos, nao e parametro"
+  },
+  "2": {
+    "parametroId": 4,
+    "titulo": "PARÂMETROS DO SISTEMA - AO FECHAR",
+    "origem": "auto",
+    "botao": "btnAjuda2",
+    "aba": "Geral"
+  },
+  "3": {
+    "parametroId": 5,
+    "titulo": "PARÂMETROS DO SISTEMA - ATUALIZAR EXECUTÁVEL",
+    "origem": "auto",
+    "botao": "btnAjuda3",
+    "aba": "Geral"
+  },
+  "4": {
+    "parametroId": 6,
+    "titulo": "PARÂMETROS DO SISTEMA - ATUALIZAR BANCO DE DADOS",
+    "origem": "auto",
+    "botao": "btnAjuda4",
+    "aba": "Geral"
+  },
+  "5": {
+    "parametroId": 7,
+    "titulo": "PARÂMETROS DO SISTEMA - VERSÃO DO EXECUTAVEL/PROGRAMA",
+    "origem": "auto",
+    "botao": "btnAjuda5",
+    "aba": "Geral"
+  },
+  "6": {
+    "parametroId": 8,
+    "titulo": "PARÂMETROS DO SISTEMA - VERSÃO DO BANCO DE DADOS/SCRIPT",
+    "origem": "auto",
+    "botao": "btnAjuda6",
+    "aba": "Geral"
+  },
+  "7": {
+    "parametroId": 9,
+    "titulo": "PARÂMETROS DO SISTEMA - VALIDADE PARA PEDIDOS/ORÇAMENTOS",
+    "origem": "manual",
+    "botao": null,
+    "aba": null,
+    "observacao": "No form, btnAjuda7 chama CarregarAjuda(9) por engano; o texto da 7 e o da validade"
+  },
+  "8": {
+    "parametroId": null,
+    "titulo": "PARÂMETROS DO SISTEMA - FINANCEIRO PARA PEDIDOS/ORÇAMENTOS",
+    "origem": "manual",
+    "botao": null,
+    "aba": null,
+    "observacao": "Mesmo conteudo da ajuda 9 (gerar financeiro); botao btnAjuda8 do form aponta para o handler da 7"
+  },
+  "9": {
+    "parametroId": 3,
+    "titulo": "PEDIDO / ORÇAMENTO - GERAR FINANCEIRO",
+    "origem": "manual",
+    "botao": "btnAjuda7",
+    "aba": "Venda - Pedido/Orçamento / 1- Configuracao"
+  },
+  "10": {
+    "parametroId": 10,
+    "titulo": "NOTA FISCAL - DATA E HORA DE SAÍDA",
+    "origem": "auto",
+    "botao": "btnAjuda10",
+    "aba": "Venda - Nota fiscal"
+  },
+  "11": {
+    "parametroId": 11,
+    "titulo": "NOTA FISCAL - INFORMAÇÕES ADICIONAIS PARA PRODUTOS",
+    "origem": "auto",
+    "botao": "btnAjuda11",
+    "aba": "Venda - Nota fiscal"
+  },
+  "12": {
+    "parametroId": 12,
+    "titulo": "NOTA FISCAL - ALTERAR DESCRIÇÃO PRODUTOS",
+    "origem": "auto",
+    "botao": "btnAjuda12",
+    "aba": "Venda - Nota fiscal"
+  },
+  "13": {
+    "parametroId": 13,
+    "titulo": "CADASTRO DE PRODUTOS - ABA DE COMPOSIÇÃO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "14": {
+    "parametroId": 14,
+    "titulo": "CADASTRO DE PRODUTOS - UTILIZAR CADASTRO COM GRADE",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "15": {
+    "parametroId": 15,
+    "titulo": "CADASTRO DE PRODUTOS - ALTERAR GRADE INDIVIDUALMENTE",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "16": {
+    "parametroId": 16,
+    "titulo": "CADASTRO DE PRODUTOS - ATUALIZAÇÃO DE GRADE PELO PAI",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "17": {
+    "parametroId": null,
+    "titulo": "CADASTRO DE CIDADES IMPORTAÇÃO/EXPORTAÇÃO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null,
+    "observacao": "Ajuda de tela (cidades), nao e parametro"
+  },
+  "18": {
+    "parametroId": 17,
+    "titulo": "PEDIDO / ORÇAMENTO - ALTERAR DESCRIÇÃO PRODUTOS",
+    "origem": "auto",
+    "botao": "btnAjuda18",
+    "aba": "Venda - Pedido/Orçamento / 1- Configuracao"
+  },
+  "19": {
+    "parametroId": 19,
+    "titulo": "PEDIDO/ORÇAMENTO DE COMPRA - GERAR FINANCEIRO",
+    "origem": "auto",
+    "botao": "btn1",
+    "aba": "Compra - Pedido/Orçamento / Geral"
+  },
+  "20": {
+    "parametroId": 18,
+    "titulo": "",
+    "origem": "auto",
+    "botao": "SpeedButton2",
+    "aba": "Proximos Códigos"
+  },
+  "21": {
+    "parametroId": 20,
+    "titulo": "PEDIDO DE VENDA - LIMITE DE CRÉDITO",
+    "origem": "auto",
+    "botao": "btnAjuda19",
+    "aba": "Venda - Pedido/Orçamento / 1- Configuracao"
+  },
+  "22": {
+    "parametroId": 21,
+    "titulo": "VISUALIZAR ABA DE ROTAS DE VENDEDORES",
+    "origem": "auto",
+    "botao": "btnAjuda22",
+    "aba": "Cadastro de entidades"
+  },
+  "23": {
+    "parametroId": 22,
+    "titulo": "NOTA FISCAL DE COMPRA - GERAR FINANCEIRO",
+    "origem": "auto",
+    "botao": "btnAjuda23",
+    "aba": "Compra - Nota Fiscal Compra"
+  },
+  "24": {
+    "parametroId": 23,
+    "titulo": "TRANCAR VENDA AO VERIFICAR LIMITE DE CRÉDITO",
+    "origem": "manual",
+    "botao": "btnAjuda24",
+    "aba": "Venda - Pedido/Orçamento / 1- Configuracao",
+    "observacao": "Proximidade apontava 271; titulo e o do 23"
+  },
+  "25": {
+    "parametroId": 25,
+    "titulo": "PDV - CLIENTE PADRAO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "26": {
+    "parametroId": 26,
+    "titulo": "PDV - VENDEDOR PADRAO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "27": {
+    "parametroId": 27,
+    "titulo": "PDV - GERAR FINANCEIRO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "28": {
+    "parametroId": 28,
+    "titulo": "PDV - MOVIMENTAR ESTOQUE",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "29": {
+    "parametroId": 29,
+    "titulo": "PDV - PRAZO DE RECTO PADRAO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "30": {
+    "parametroId": 30,
+    "titulo": "PDV - FORMA DE RECTO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "31": {
+    "parametroId": 24,
+    "titulo": "INFORMAÇÃO DE CAMPO SALDO - CONTA A RECEBER",
+    "origem": "auto",
+    "botao": "btnAjuda31",
+    "aba": "Conta Receber"
+  },
+  "32": {
+    "parametroId": 31,
+    "titulo": "INFORMAÇÃO DE CAMPO SALDO - CONTA A PAGAR",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "33": {
+    "parametroId": 32,
+    "titulo": "PDV - UTILIZAR FOTO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "34": {
+    "parametroId": 33,
+    "titulo": "PDV - PADRAO PRODUTOS BALANCA",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "35": {
+    "parametroId": 34,
+    "titulo": "PARAMETRO PADRÃO - PEDIDO/ORÇAMENTO DE COMPRA",
+    "origem": "auto",
+    "botao": "btnAjuda35",
+    "aba": "Compra - Pedido/Orçamento / Geral"
+  },
+  "36": {
+    "parametroId": 35,
+    "titulo": "PARAMETRO PADRÃO - OPERAÇÃO DE ESTOQUE DE COMPRA",
+    "origem": "auto",
+    "botao": "btnAjuda36",
+    "aba": "Compra - Pedido/Orçamento / Geral"
+  },
+  "37": {
+    "parametroId": 36,
+    "titulo": "PARAMETRO PADRÃO - CAMPO PESQUISA PADRÃO",
+    "origem": "auto",
+    "botao": "btnAjuda37",
+    "aba": "Compra - Pedido/Orçamento / Geral"
+  },
+  "38": {
+    "parametroId": 37,
+    "titulo": "PARAMETRO PADRÃO - PEDIDO/ORÇAMENTO DE COMPRA",
+    "origem": "auto",
+    "botao": "btnAjuda38",
+    "aba": "Compra - Pedido/Orçamento / Geral"
+  },
+  "39": {
+    "parametroId": 38,
+    "titulo": "PARAMETRO PADRÃO - CONTA PAGAR",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "40": {
+    "parametroId": 39,
+    "titulo": "PARAMETRO PADRÃO - CONTA RECEBER",
+    "origem": "auto",
+    "botao": "btnAjuda40",
+    "aba": "Conta Receber"
+  },
+  "41": {
+    "parametroId": 40,
+    "titulo": "PDV - CARTÃO DE CRÉDITO - BAIXA AUTOMÁTICA",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "42": {
+    "parametroId": 41,
+    "titulo": "PDV - CHEQUE - BAIXA AUTOMÁTICA",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "43": {
+    "parametroId": 42,
+    "titulo": "MAPA CARREGAMENTO - PRÓXIMO CÓDIGO A SER USADO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "44": {
+    "parametroId": 43,
+    "titulo": "PEDIDO / ORÇAMENTO - PRÓXIMO CÓDIGO A SER UTILIZADO",
+    "origem": "auto",
+    "botao": "btnAjuda44",
+    "aba": "Proximos Códigos"
+  },
+  "45": {
+    "parametroId": 44,
+    "titulo": "PEDIDO / ORÇAMENTO DE VENDA - PADRÃO CAMPO PESQUISA",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "46": {
+    "parametroId": 58,
+    "titulo": "GERAL - UTILIZA PADRÃO DE QUANTIDADE DA PESQUISA DE PRODUTO",
+    "origem": "auto",
+    "botao": "btnAjuda46",
+    "aba": "Geral"
+  },
+  "47": {
+    "parametroId": 59,
+    "titulo": "NOTA FISCAL - UTILIZAR DESCRIÇÃO REDUZIDA",
+    "origem": "auto",
+    "botao": "btnAjuda47",
+    "aba": "Venda - Nota fiscal"
+  },
+  "48": {
+    "parametroId": 61,
+    "titulo": "PRODUTO - PRÓXIMO CÓDIGO A SER UTILIZADO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "49": {
+    "parametroId": 62,
+    "titulo": "PEDIDO / ORCAMENTO - UTILIZAR CODIGO EM IMPRESSAO",
+    "origem": "manual",
+    "botao": "SpeedButton3",
+    "aba": "Venda - Pedido/Orçamento"
+  },
+  "50": {
+    "parametroId": 67,
+    "titulo": "CARREGAR LAYOUT DE IMPRESSÃO DE PEDIDO/ORÇAMENTO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "51": {
+    "parametroId": 68,
+    "titulo": "PRECIFICAÇÃO DE COMPRA EM PORCENTAGEM",
+    "origem": "manual",
+    "botao": "btnAjuda48",
+    "aba": "Proximos Códigos",
+    "observacao": "Proximidade apontava 61; titulo e o do 68"
+  },
+  "52": {
+    "parametroId": 70,
+    "titulo": "ALTERAR MARGEM/PREÇO DE VENDA",
+    "origem": "auto",
+    "botao": "btnAjuda52",
+    "aba": "Compra - Nota Fiscal Compra"
+  },
+  "53": {
+    "parametroId": 69,
+    "titulo": "ATULIZAR VALORES DE COMPRA E DE CUSTO DO PRODUTO",
+    "origem": "auto",
+    "botao": "btnAjuda53",
+    "aba": "Compra - Nota Fiscal Compra"
+  },
+  "54": {
+    "parametroId": 71,
+    "titulo": "CADASTRAR LEMBRETE DE EVENTO",
+    "origem": "auto",
+    "botao": "btnAjuda54",
+    "aba": "Agenda Compromisso/ Lembrete"
+  },
+  "55": {
+    "parametroId": 72,
+    "titulo": "TEMPO DE VISUALIZAÇÃO DO LEMBRETE",
+    "origem": "auto",
+    "botao": "btnAjuda55",
+    "aba": "Agenda Compromisso/ Lembrete"
+  },
+  "56": {
+    "parametroId": 73,
+    "titulo": "ENCERRAR EVENTO AUTOMATICO",
+    "origem": "auto",
+    "botao": "btnAjuda56",
+    "aba": "Agenda Compromisso/ Lembrete"
+  },
+  "57": {
+    "parametroId": 74,
+    "titulo": "VERIFICAR Nº DE DOCUMENTO DUPLICADO",
+    "origem": "auto",
+    "botao": "btnAjuda57CR",
+    "aba": "Conta Receber"
+  },
+  "58": {
+    "parametroId": 76,
+    "titulo": "CFOP DE TRANSFERÊNCIA DE PRODUTO",
+    "origem": "auto",
+    "botao": "Ajuda58",
+    "aba": "Transferência de Estoque"
+  },
+  "59": {
+    "parametroId": 77,
+    "titulo": "ATUALIZAR MULTA OU JURROS POR ATRASO",
+    "origem": "auto",
+    "botao": "Ajuda59",
+    "aba": "Conta Receber"
+  },
+  "60": {
+    "parametroId": 80,
+    "titulo": "VERIFICAR LIMITE DE CRÉDITO",
+    "origem": "auto",
+    "botao": "Ajuda60",
+    "aba": "Venda - Nota fiscal"
+  },
+  "61": {
+    "parametroId": 81,
+    "titulo": "TRANCAR VENDA AO VERIFICAR LIMITE DE CRÉDITO",
+    "origem": "auto",
+    "botao": "Ajuda61",
+    "aba": "Venda - Nota fiscal"
+  },
+  "62": {
+    "parametroId": 84,
+    "titulo": "LIMITE DE DIAS PARA INADIMPLÊNCIA",
+    "origem": "auto",
+    "botao": "Ajuda62",
+    "aba": "Conta Receber"
+  },
+  "63": {
+    "parametroId": 85,
+    "titulo": "MOSTRAR IMAGEM DE PRODUTO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "64": {
+    "parametroId": 88,
+    "titulo": "PDV - OBRIGATÓRIO INFORMAR VENDEDOR",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "65": {
+    "parametroId": 89,
+    "titulo": "CAMPO TIPO DE OPERAÇÃO OBRIGATORIO",
+    "origem": "auto",
+    "botao": "Ajuda65",
+    "aba": "Venda - Pedido/Orçamento / 1- Configuracao"
+  },
+  "66": {
+    "parametroId": 92,
+    "titulo": "CARÊNCIA PARA COBRANÇA",
+    "origem": "auto",
+    "botao": "Ajuda66",
+    "aba": "Conta Receber"
+  },
+  "67": {
+    "parametroId": 97,
+    "titulo": "SALVAR BANCO DE DADOS",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "68": {
+    "parametroId": 99,
+    "titulo": "Nº DE VIAS POR RELATORIO GERENCIAL",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "69": {
+    "parametroId": 101,
+    "titulo": "VISUALIZAR INFORMAÇÕES ADICIONAIS",
+    "origem": "auto",
+    "botao": "Ajuda69",
+    "aba": "Cadastro de entidades"
+  },
+  "71": {
+    "parametroId": 107,
+    "titulo": "UTILIZA PESQUISA POR TAMANHO DA DESCRIÇÃO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "72": {
+    "parametroId": 112,
+    "titulo": "MOSTRAR INFORMAÇÕES DA BALANÇA",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "73": {
+    "parametroId": 113,
+    "titulo": "CADASTRO COMPLETO DE CLIENTE",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "74": {
+    "parametroId": 116,
+    "titulo": "PESQUISA MULTI EMPRESA",
+    "origem": "auto",
+    "botao": "Ajuda74",
+    "aba": "Geral"
+  },
+  "75": {
+    "parametroId": 115,
+    "titulo": "OPERAÇÃO ESTOQUE TRANSFERENCIA DE PRODUTO",
+    "origem": "auto",
+    "botao": "Ajuda75",
+    "aba": "Transferência de Estoque"
+  },
+  "76": {
+    "parametroId": 117,
+    "titulo": "INDICADORES MULTI EMPRESA",
+    "origem": "auto",
+    "botao": "Ajuda76",
+    "aba": "Indicadores"
+  },
+  "77": {
+    "parametroId": 129,
+    "titulo": "SELECIONAR PRODUTOS ADQUIRIDOS DA CONSIGNAÇÃO / PEDIDO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "78": {
+    "parametroId": 130,
+    "titulo": "ADICIONAR OBSERVAÇÃO DO CLIENTE NA NOTA FISCAL",
+    "origem": "auto",
+    "botao": "Ajuda78",
+    "aba": "Venda - Nota fiscal"
+  },
+  "79": {
+    "parametroId": 132,
+    "titulo": "ENVIAR EMAIL QUANDO DESTINATARIO É A PROPRIA EMPRESA/FILIAl",
+    "origem": "auto",
+    "botao": "Ajuda79",
+    "aba": "Venda - Nota fiscal"
+  },
+  "80": {
+    "parametroId": 138,
+    "titulo": "USAR IMPRESSORA PADRÃO PARA IMPRESSÃO",
+    "origem": "auto",
+    "botao": "Ajuda80",
+    "aba": "Geral"
+  },
+  "81": {
+    "parametroId": 140,
+    "titulo": "UTILIZA NOTA FISCAL DO CONSUMIDOR",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  },
+  "82": {
+    "parametroId": null,
+    "titulo": "CFOP PADRÃO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null,
+    "observacao": "Titulo generico; varios parametros de CFOP padrao (186/187/300)"
+  },
+  "83": {
+    "parametroId": 142,
+    "titulo": "ENVIAR LOTE DE CONTINGENCIA AUTOMATICO",
+    "origem": "manual",
+    "botao": null,
+    "aba": null
+  }
+}

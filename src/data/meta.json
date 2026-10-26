@@ -1,0 +1,58 @@
+{
+  "geradoEm": "2026-10-26T15:29:14.946Z",
+  "versoes": [
+    "16.35",
+    "24.00"
+  ],
+  "versaoPrincipal": "24.00",
+  "totais": {
+    "parametros": 633,
+    "comTela": 491,
+    "comAjuda": 77,
+    "comHint": 44,
+    "comUsos": 492,
+    "explicados": 633,
+    "revisados": 0
+  },
+  "proximoIdLivre": 641,
+  "idsForaDoCatalogo": [],
+  "idsSemUsoNemTela": [
+    448,
+    2,
+    398,
+    316,
+    639,
+    222,
+    223,
+    224
+  ],
+  "idsSemExplicacao": [],
+  "ajudasSemParametro": [
+    {
+      "ajudaId": 1,
+      "titulo": "CADASTRO DE PRODUTOS - CUSTO FIXO"
+    },
+    {
+      "ajudaId": 8,
+      "titulo": "PARÂMETROS DO SISTEMA - FINANCEIRO PARA PEDIDOS/ORÇAMENTOS"
+    },
+    {
+      "ajudaId": 17,
+      "titulo": "CADASTRO DE CIDADES IMPORTAÇÃO/EXPORTAÇÃO"
+    },
+    {
+      "ajudaId": 82,
+      "titulo": "CFOP PADRÃO"
+    }
+  ],
+  "botoesAjudaSemParametro": [
+    {
+      "botao": "SpeedButton3",
+      "ajudaId": 49,
+      "aba": "Venda - Pedido/Orçamento"
+    }
+  ],
+  "ajudaSemRegistroNoCsv": [
+    20
+  ]
+}
